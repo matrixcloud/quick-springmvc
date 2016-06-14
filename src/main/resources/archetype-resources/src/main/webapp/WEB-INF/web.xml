@@ -5,10 +5,10 @@
     http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
 	<display-name>Archetype Created Quick SpringMVC</display-name>
+	<!-- Disables Servlet Container welcome file handling. Needed for compatibility with Servlet 3.0 and Tomcat 7.0 -->
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
-	</welcome-file-list>
-	
+		<welcome-file></welcome-file>
+	</welcome-file-list>	
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
 	</listener>

@@ -19,7 +19,6 @@
       <directory>src/main/webapp</directory>
       <includes>
         <include>WEB-INF/*.xml</include>
-        <include>index.jsp</include>
       </includes>
     </fileSet>
   </fileSets>
